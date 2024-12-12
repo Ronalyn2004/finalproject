@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Ronalyn Paragon</title>
+    <!-- Link to Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Reset some default browser styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url('/images/wallpaper.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        /* Header */
+        header h1 {
+            font-size: 3.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        header p {
+            font-size: 1.3em;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            padding: 0.5rem 1rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .navbar-nav .nav-item {
+            margin-right: 20px;
+        }
+
+        .navbar-nav .nav-link {
+            color: black;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #dfe6e9;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Main Content */
+        .container h2 {
+            font-size: 2.5em;
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        .container p {
+            font-size: 1.2em;
+            color: black;
+        }
+
+        .container ul {
+            list-style-type: none;
+        }
+
+        .container ul li {
+            font-size: 1.1em;
+            color: black;
+        }
+
+        /* Footer */
+        footer p {
+            color: black;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: black;
+        }
+
+        footer a:hover {
+            color: wheat;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="bg-transparent text-center py-5 shadow-sm">
+        <div class="container">
+            <h1 class="display-4 text-dark">About Me</h1>
+            <p class="lead text-dark">Get to know more about Ronalyn Paragon, Information Technology Student</p>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent shadow-sm">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="education.html">Educational</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="project.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- About Me Content Section -->
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="text-dark">Hello, I'm Ronalyn!</h2>
+                <p class="lead">I am a passionate and dedicated Information Technology student, always eager to learn new skills and grow in my field.</p>
+                <p>I am currently enrolled at West Visayas State University, where I am focusing on building my expertise in software development, networking, and data analysis. When I'm not studying, I enjoy working on personal projects and exploring new technologies that help me stay ahead in this fast-evolving field.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-transparent text-center py-4">
+        <p>© This site is coded by <a href="https://github.com/Ronalyn2004/finalproject" target="_blank" class="text-dark">Ronalyn Paragon.</a> All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Background - Ronalyn Paragon</title>
+    <!-- Link to Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url('/images/wallpaper.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        /* Header */
+        header h1 {
+            font-size: 3.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        header p {
+            font-size: 1.3em;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            padding: 0.5rem 1rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .navbar-nav .nav-item {
+            margin-right: 20px;
+        }
+
+        .navbar-nav .nav-link {
+            color: black;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #dfe6e9;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Education Section */
+        .card {
+            border: none;
+            border-radius: 10px;
+        }
+
+        .card-body {
+            text-align: center;
+        }
+
+        .card-title {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .card-text {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        /* Footer */
+        footer p {
+            color: black;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: black;
+        }
+
+        footer a:hover {
+            color: wheat;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="bg-transparent text-center py-5 shadow-sm">
+        <div class="container">
+            <h1 class="display-4 text-dark">Ronalyn Paragon</h1>
+            <p class="lead text-dark">Educational Background</p>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent shadow-sm">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Me</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="education.html">Educational</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="project.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <h2 class="display-4 text-center text-dark mb-5">My Educational Background</h2>
+
+        <!-- Education Timeline -->
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Elementary School</h5>
+                        <p class="card-text"><strong>2011 - 2017</strong></p>
+                        <p class="card-text">Janiuay Pilot Elementary School</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">High School</h5>
+                        <p class="card-text"><strong>2017 - 2023</strong></p>
+                        <p class="card-text">Badiangan National High School</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">College</h5>
+                        <p class="card-text"><strong>2023 - Present</strong></p>
+                        <p class="card-text">Bachelor's in Information Technology - West Visayas State University</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-transparent text-center py-4">
+        <p>© This site is coded by <a href="https://github.com/Ronalyn2004/finalproject" target="_blank" class="text-dark">Ronalyn Paragon.</a> All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
